@@ -80,4 +80,14 @@ public class Author {
         return Objects.hash(id);
     }
 
+    @Override
+    public String toString() {
+        return "{" +
+            " id='" + getId() + "'" +
+            ", firstName='" + getFirstName() + "'" +
+            ", lastName='" + getLastName() + "'" +
+            ", books='" + getBooks() + "'" +
+            "}";
+    }
+    
 }
