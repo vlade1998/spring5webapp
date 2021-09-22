@@ -30,7 +30,7 @@ public class Book {
     public Book() {
     }
 
-    public long getId() {
+    public Long getId() {
         return this.id;
     }
 
